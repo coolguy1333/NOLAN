@@ -1,0 +1,30 @@
+body {
+    background-image: url(./images/upstairsRoomNoJB.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.jackBlack{
+    margin-top: 200px;
+    margin-left: 700px;
+}
+
+.goBackButton{
+    height: 40px;
+    width: 100px;
+    background-size: contain;
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+.jackBlackButton{
+    height: 40px;
+    width: 100px;
+    background-size: contain;
+    margin-top: 100px;
+    margin-left: 500px;
+}

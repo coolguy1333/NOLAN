@@ -1,0 +1,19 @@
+.startButton{
+    background-image: url("./images/startButton.png");
+    height: 92px;
+    width: 215px;
+    background-size: contain;
+    margin-top: 500px;
+    margin-left: 600px;
+}
+
+body {
+    background-image: url(./images/startScreen.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+}
+

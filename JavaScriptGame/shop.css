@@ -1,0 +1,6 @@
+#gameButton{
+    background-image: url("./images/scraps.png");
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+}

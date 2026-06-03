@@ -1,0 +1,16 @@
+body {
+    background-image: url(./images/tv.gif);
+    background-size:92%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.grug-news { 
+    height: 6in;
+    width: 9in;
+    margin-top: 0px;
+    margin-left: 200px;
+}

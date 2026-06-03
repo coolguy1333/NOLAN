@@ -1,0 +1,25 @@
+body {
+    background-image: url(./images/road.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.fredCar{
+    display: inline-block;
+    background-size: contain;
+    margin-top: 450px;
+}
+
+.carText{
+    background-color: gainsboro;
+    height: 100px;
+    width: 500px;
+    text-align: center;
+    background-size: contain;
+    margin-top: 0px;
+    margin-left: 500px;
+}

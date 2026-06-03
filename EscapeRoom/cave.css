@@ -1,0 +1,25 @@
+body {
+    background-image: url(./images/cave.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.goBackButton{
+    height: 100px;
+    width: 100px;
+    background-size: contain;
+    margin-top: 500px;
+    margin-left: 600px;
+}
+
+.goOnButton{
+    height: 100px;
+    width: 100px;
+    background-size: contain;
+    margin-top: 500px;
+    margin-left: 100px;
+}

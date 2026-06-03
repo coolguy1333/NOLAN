@@ -1,0 +1,56 @@
+body {
+    background-image: url(./images/cave.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.takeKeyButton{
+    background-image: url("./images/key.png");
+    height: 72px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 0px;
+    margin-left: 900px;
+}
+
+.grug2{
+    display: flex;
+    background-size: contain;
+    margin-top: 50px;
+    margin-left: 500px;
+    /* margin-top: 175px;
+    margin-left: 500px; */
+}
+
+.textBox{
+    background-color: gainsboro;
+    height: 125px;
+    width: 500px;
+    font-size: .3in;
+    text-align: center;
+    background-size: contain;
+    margin-top: 20px;
+    margin-left: 500px;
+}
+
+.key{
+    background-color: gainsboro;
+    height: 800px;
+    width: 1550px;
+    font-size: 2in;
+    text-align: center;
+    background-size: contain;
+}
+
+.goBackButton{
+    height: 100px;
+    width: 100px;
+    background-size: contain;
+    margin-top: -100px;
+    margin-left: 200px;
+}

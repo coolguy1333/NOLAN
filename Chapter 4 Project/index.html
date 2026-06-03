@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Club Join Form</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <h1><u><i>Join My Clerb</i></u></h1>
+            <h3>Fill out this quick form to see if you are elegable to join my Clerb</h3>
+            <br>
+        </header>
+        <main>
+            <form id="clubForm">
+
+                <p>Name:</p>
+                <label for="name">
+                    <input type="text" id="name" placeholder= "Name here" required>
+                </label>
+
+                <h2>Lets start with some fun questions</h2>
+                <p>1) If you could be an animal, what would you be?</p>
+                    <input type="radio" id="bird" name="animal" checked="true" onclick="hideOtherInput()">
+                    <label for="bird">Bird</label><br>
+                    <input type="radio" id="cat" name="animal" onclick="hideOtherInput()">      <!--disabled ="true"-->
+                    <label for="cat">Cat</label><br>
+                    <input type="radio" id="dog" name="animal" onclick="hideOtherInput()">
+                    <label for="dog">Dog</label><br>
+                    <input type="radio" id="other" name="animal" onclick="displayOtherInput()">
+                    <label for="other">Other</label><br>
+                    <input type="text" hidden="true" placeholder="Animal" id="otherText">
+                    <br>
+
+                <p>2) If you had $1,000,000, what would you do? (you can chose more than 1)</p>
+                    <input type="checkbox" id="car" name="money">
+                    <label for="car">Buy a car</label><br>
+                    <input type="checkbox" id="give" name="money" >      <!--disabled ="true"-->
+                    <label for="give">Give money away</label><br>
+                    <input type="checkbox" id="save" name="money">
+                    <label for="save">Save all of it</label><br>
+                    <input type="checkbox" id="whatever" name="money">
+                    <label for="whatever">Do whatever</label><br>
+
+                <p>3) If you were locked in a room what is the first thing you would do?</p>
+                    <input type="checkbox" id="call" name="room">
+                    <label for="call">Call someone, Duh</label><br>
+                    <input type="checkbox" id="break" name="room" >      <!--disabled ="true"-->
+                    <label for="break">Break out</label><br>
+                    <input type="checkbox" id="stay" name="money">
+                    <label for="stay">Stay in there</label><br>
+                    <input type="checkbox" id="wait" name="money">
+                    <label for="wait">Wait for help</label><br>
+
+                <h2>Now lets get serious</h2>
+                <br>
+
+                <label for="meet">4) What time would be best to meet up?
+                <input id="meet" type="time">
+                </label>
+                <br>
+                <br>
+                
+                <label for="color">5) What is your favorit color
+                <input id="color" type="color">
+                </label>
+                <br>
+
+                <p>Now for the last question</p>
+
+                <label for="lastQuestion">Do you want to join
+                    <select id="lastQuestion">
+                        <option>Yes</option>
+                        <option>No</option>
+                    </select>
+                </label>
+                <br>
+                <br>
+                <br>
+
+                <button type="submit">Submit</button>
+
+            </form>
+            
+            <p id="resultParagraph">
+                
+            </p>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>

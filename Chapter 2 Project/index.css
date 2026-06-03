@@ -1,0 +1,106 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-image: url("./images/greyback.jpg");
+    margin: 0px;
+}
+
+.header-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.header-link{
+    font-size: 28pt;
+    text-decoration: none;
+    padding: 20px 40px;
+    background-color: rgb(174, 13, 13);
+    color: white;
+    border-radius: 10px;
+    min-width: 200px;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgb(149, 31, 31);
+
+}
+
+.header-link:hover{
+    padding: 22px 42px;
+    background-color: rgb(255, 0, 0);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 80px;
+}
+
+h1{
+    font-size: 44pt;
+    color: rgb(217, 20, 20)
+}
+
+h2{
+    font-size: 28pt;
+}
+
+p, li{
+    font-size: 22pt;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header-image{
+    width: 100%;
+}
+
+.link-card{
+    background-color: rgb(116, 77, 222);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-shadow: 12px 12px 12px rgba(255, 0, 0, 0.66);
+    margin-bottom: 30px;
+    border-radius: 25px;
+
+}
+
+.link-card-header{
+    padding: 10px 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+.link-card-body{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+}
+
+.link-card-info{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.link-card-image{
+    margin: auto;
+    padding: 0px 20px;
+}
+
+.link-card-footer{
+    width: 100%;
+    padding: 10px 0px;
+    margin: 0px;
+}

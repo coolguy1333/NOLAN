@@ -1,0 +1,99 @@
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#shopButton{
+    background-image: url("./images/store.png");
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+}
+
+#clickerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: min-content;
+}
+
+#scrapsClicker{
+    background-image: url("./images/scraps.png");
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+}
+
+#scrapsClicker:hover{
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+.labelRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.label{
+    font-size: 24pt;
+    font-weight: 700;
+}
+
+.amount{
+    font-size: 24pt;
+}
+
+#productionContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#passiveScrapsButton{
+    background-image: url("./images/passiveScraps.png");
+    background-size: cover;
+}
+
+#scrapsForArmorButton{
+    background-image: url("./images/scrapsForArmor.png");
+    background-size: cover;
+}
+
+#passiveArmorButton{
+    background-image: url("./images/passiveArmor.png");
+    background-size: cover;
+}
+
+.productionElement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.productionGraphics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productionButton{
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.productionProgress{
+    height: 50px;
+    width: 150px;
+}
+
+.productionText{
+    font-size: 28pt;
+    text-align: center;
+}

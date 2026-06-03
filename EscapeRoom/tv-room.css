@@ -1,0 +1,25 @@
+body {
+    background-image: url(./images/hallway-with-table.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.tvButton{
+    height: 40px;
+    width: 100px;
+    background-size: contain;
+    margin-top: 400px;
+    margin-left: 730px;
+}
+
+.goOnButton{
+    height: 40px;
+    width: 100px;
+    background-size: contain;
+    margin-top: 400px;
+    margin-left: 400px;
+}

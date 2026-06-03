@@ -1,0 +1,34 @@
+body {
+    background-image: url(./images/space.jpg);
+    background-size:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.key{
+    /* display: flex; */
+    background-size: contain;
+    margin-top: 200px;
+    margin-left: 500px;
+}
+
+.goBackButton{
+    height: 100px;
+    width: 467px;
+    background-size: contain;
+    margin-top: 50px;
+    margin-left: 467px;
+}
+
+.textBox{
+    background-color: gainsboro;
+    height: 50px;
+    width: 467px;
+    text-align: center;
+    background-size: contain;
+    margin-top: 20px;
+    margin-left: 467px;
+}
